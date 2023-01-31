@@ -50,6 +50,11 @@ class ImageHandling
      * @var bool
      */
     private $throwException;
+    
+    /**
+     * @var string
+     */
+    private $fallbackImage;
 
     /**
      * @param string                               $cacheDirectory
